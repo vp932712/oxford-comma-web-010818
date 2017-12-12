@@ -9,8 +9,8 @@ if array.length == 1
 
 elsif array.length == 2
   array.join(" and ")
- else 
-    
+ else
+
 
 i = 0
 while (i < array.length-1)
@@ -18,10 +18,8 @@ while (i < array.length-1)
   i += 1
 end
 empty.join(" ") + " and "+ array[array.length-1]
- 
-end
-
 
 end
 
 
+end
